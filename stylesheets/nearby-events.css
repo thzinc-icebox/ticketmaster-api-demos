@@ -1,0 +1,44 @@
+.nearby-events {
+	max-width: 30rem;
+}
+
+.nearby-events__header {
+	font-size: 1.1rem;
+	font-variant: small-caps;
+}
+
+.nearby-events__list__item {
+	margin-bottom: 1rem;
+	padding-bottom: 0.5rem;
+	border-bottom: solid 1px #DDD
+}
+
+.nearby-events__list__item__date {
+	color: #999;
+	float: left;
+	width: 3rem;
+	height: 3rem;
+}
+
+.nearby-events__list__item__date__month,
+.nearby-events__list__item__date__day {
+	text-align: center;
+}
+
+.nearby-events__list__item__date__month {
+	font-size: 0.9rem;
+}
+
+.nearby-events__list__item__date__day {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.nearby-events__list__item__name {
+	font-size: 1.4rem;
+}
+
+.nearby-events__list__item__venue {
+	font-size: 0.9rem;
+	text-align: right;
+}
